@@ -1,0 +1,38 @@
+
+/* Comm
+selected tag{
+    property : value
+} */
+
+h1{
+    color: purple;
+}
+li{
+    color:green;
+}
+
+p{
+    color:yellow
+}
+
+h4{
+    color:rosybrown;
+}
+
+div{
+    background-color: blue;
+    border-color :green;
+    border-width: 2px;
+    border-style: double;
+}
+
+body{
+    background: url(https://media-cdn.tripadvisor.com/media/photo-s/0e/85/48/e6/seven-mile-beach-grand.jpg);
+
+    background-repeat: no-repeat;
+}
+
+span{
+    color:black;
+    background:red
+}
