@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Hotel</title>
+</head>
+<body>
+    <h1> Hotel Feedback Form</h1>
+    <form method="get">
+        <h3> Are you from inside the US? Or outside the US?</h3>
+
+        <!-- Kada radio button-i imaju isti name onda su linkovani tj. samo jedan moze biti cekiran -->
+        <label for="inusa"> Inside: </label>
+        <input id="inusa" type="radio" name="location" value="inside">
+
+        <label for="outusa">Outside: </label>
+        <input id="outusa" type="radio" name="location" value="outside">
+
+        <h3>How was your service?</h3>
+
+        <select name="stars">
+            <option value="Great">3</option>
+            <option value="Good">2</option>
+            <option value="Bad">1</option>
+        </select>
+        
+        <h3>Any other feedback?</h3>
+        <textarea name="My text" id="" cols="80" rows="10"></textarea>
+        <input type="submit" name="" value="Submit">
+    </form>
+</body>
+</html>
